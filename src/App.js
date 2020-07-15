@@ -15,7 +15,18 @@ function App() {
     <div className="App">
       <header className="App-header">
 
-        ... no changes in this part ...
+      <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
 
         <p>The current time is {currentTime}.</p>
       </header>
